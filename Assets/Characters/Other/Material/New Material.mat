@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Material
+  m_Shader: {fileID: 4800000, guid: fca3af8bcdb0fdf4daf965743a826cbf, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: 0.08
+    - _BlendOffset: 0.55
+    - _BlendScale: 0.63
+    - _BlendTransitionOffset: -0.55
+    - _BlendTransitionRatio: 3.69
+    - _BumpScale: 1
+    - _ColorNoiseScale: 0.29
+    - _ColorNoiseValue: 0.06
+    - _Cutoff: 0.5
+    - _DeformationNoiseScale: 1.09
+    - _DeformationNoiseValue: 0.47
+    - _DeformationScale: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EdgeLength: 2
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseColorScale: 0.22
+    - _NoiseSize: 1.04
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Power: 0.17
+    - _Scale: 2.63
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _YDeformation: 0
+    - _YLerpConstant: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Albedo: {r: 0, g: 0, b: 0, a: 0}
+    - _BlendColor: {r: 0.26651832, g: 0.6509434, b: 0.63016367, a: 0}
+    - _BlendColor1: {r: 0.2647561, g: 0.6277026, b: 0.6320754, a: 0}
+    - _BlendColor2: {r: 1, g: 0.29622638, b: 0.54852253, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 0.58462083, g: 0.85358, b: 0.8679245, a: 1}
+    - _NoiseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SummedBlend: {r: 0.46, g: 0, b: 0, a: 0}
+    - _SummedWeight: {r: 0.54, g: 0.69, b: 0, a: 0}
+    - _TimeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _TopColor: {r: 1, g: 0.56037736, b: 0.8448391, a: 0}
+  m_BuildTextureStacks: []
