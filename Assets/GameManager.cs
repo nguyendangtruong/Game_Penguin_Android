@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
 public class GameManager : MonoBehaviour
 {
     bool gameHasEnds = false;
@@ -24,6 +25,8 @@ public class GameManager : MonoBehaviour
     public float positionZSnowBallFall=100f;
     public GameObject audioBG;
     public GameObject audioDeath;
+    public AudioSource audioBGSource;
+    public AudioSource audioDeathSource;
 
 
     //rơi Snow Ball
@@ -54,8 +57,25 @@ public class GameManager : MonoBehaviour
  
 
         }
+
+        //Setting âm thanh game từ Option Menu
+        SetingVolInGame();
+
+        
     }
-   
+
+    public void SetingVolInGame()
+    {
+        //Lấy giá trị setting âm thanh từ Menu truyền sang
+        float volume;
+        volume = PlayerPrefs.GetFloat("setVolumeSound");
+        //Điều chỉnh âm thanhphù hợp với Setting
+        audioBGSource.volume = audioBGSource.volume * (volume / 1);
+        audioDeathSource.volume = audioDeathSource.volume * (volume / 1);
+    }
+
+
+
     private void Update()
     {
         if (startPlayerGame == false) //kiểm tra khi bắt đầu vào game

@@ -7558,6 +7558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725802931}
   - component: {fileID: 1725802930}
+  - component: {fileID: 1725802932}
   m_Layer: 0
   m_Name: Audio BG
   m_TagString: Untagged
@@ -7577,7 +7578,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 475f4837af487ce4a9e68bb227455e4c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.5
   m_Pitch: 0.9
   Loop: 1
   Mute: 0
@@ -7675,6 +7676,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1725802932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725802929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731f2bbc055290c48a797be01454a60d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSoundBG: {fileID: 1725802930}
 --- !u!1 &1778337754
 GameObject:
   m_ObjectHideFlags: 0
@@ -9457,6 +9471,11 @@ PrefabInstance:
       objectReference: {fileID: 922866365}
     - target: {fileID: 7876427141189022261, guid: 333ee2e0973d21043ac19301cd1d1f1b,
         type: 3}
+      propertyPath: audioBGSource
+      value: 
+      objectReference: {fileID: 1725802930}
+    - target: {fileID: 7876427141189022261, guid: 333ee2e0973d21043ac19301cd1d1f1b,
+        type: 3}
       propertyPath: completeLevelUI
       value: 
       objectReference: {fileID: 594037398}
@@ -9465,6 +9484,11 @@ PrefabInstance:
       propertyPath: textLevelUpNext
       value: 
       objectReference: {fileID: 687477145}
+    - target: {fileID: 7876427141189022261, guid: 333ee2e0973d21043ac19301cd1d1f1b,
+        type: 3}
+      propertyPath: audioDeathSource
+      value: 
+      objectReference: {fileID: 22800498}
     - target: {fileID: 7876427141189022261, guid: 333ee2e0973d21043ac19301cd1d1f1b,
         type: 3}
       propertyPath: completeLevelUI2
